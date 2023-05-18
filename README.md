@@ -22,5 +22,5 @@ I added a few concideration points and upgrade possibilities in the code as comm
 
 I introduced an error handling shortcode system catered more towards clients/users. It simply lets you know that the app ran into an error with a Code (ex. DC001) and a basic description (ex. 'noValue error') with a label to indicate that they should Contact the administrator.
   - This serves two purposes
-      > Give enough information to a client/user to know what to do (Call Administrator) and what it could be for more learnerd users.
-      > When the client/user passes the error message to the Administrator and then to the Developers, they can imediately identify the location of the issue (ctrl+F).
+      > 1. Give enough information to a client/user to know what to do (Call Administrator) and what it could be for more learnerd users.
+      > 2. When the client/user passes the error message to the Administrator and then to the Developers, they can imediately identify the location of the issue (ctrl+F).
